@@ -1,7 +1,7 @@
-export const login = async (account, password) => {
-  await new Promise((resolve) => {
+export const login = (account, password) => {
+  return new Promise((resolve) => {
     setTimeout(() => {
       resolve({ token: "MOCK_TOKEN" });
-    }, 3000);
+    }, 2000);
   });
 };

@@ -1,12 +1,14 @@
 # Milestorn #1
-- extra the async calls+UI logic 
-  - extra 
+
+- extra the async calls logic
+  - extra
     - hook api
   - async
     - api
       - loading/loaded status
 
 # Milestorn #2
+
 - extra the UI of async call status logic
   - extra
     - suspen
@@ -15,6 +17,7 @@
       - isOpen: !loaded
 
 # Milestorn #3
+
 - support multiple types of async calls and UIs
   - types of async calls
     - api
