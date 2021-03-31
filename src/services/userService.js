@@ -1,3 +1,5 @@
+import React from "react";
+
 export const login = (account, password) => {
   return new Promise((resolve) => {
     setTimeout(() => {
